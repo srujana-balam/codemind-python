@@ -1,5 +1,5 @@
 t=int(input())
 s=int(input())
 b=int(input())
-n=t*s*b
+n=(2*t*s*b*512)//1024
 print(n,"KB")
